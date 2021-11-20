@@ -74,12 +74,12 @@ class Enemy(Player):
 def main():
     run = True
     FPS = 60
-    level = 1
+    level = 0
     lives = 5
 
-    enemy_vel = 1
-    wave_length = 5
     enemies = []
+    wave_length = 5
+    enemy_vel = 1
 
     Clock = pygame.time.Clock()
 
